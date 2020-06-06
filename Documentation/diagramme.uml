@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1170.875" y="1559.0">utilisateur.Utilisateur</node>
+    <node x="2443.375" y="514.5">evenement.EvenementCulturel</node>
+    <node x="632.3750000000001" y="514.5">evenement.EvenementMusical</node>
+    <node x="1643.375" y="526.5">evenement.EvenementGastronomique</node>
+    <node x="942.5788565426171" y="0.0">evenement.Evenement</node>
+    <node x="0.0" y="48.5">intervalle.Intervalle</node>
+    <node x="1255.875" y="2123.0">Test</node>
+    <node x="1077.375" y="538.5">evenement.EvenementCinematographique</node>
+    <node x="2079.375" y="562.5">evenement.EvenementBusiness</node>
+    <node x="305.3750000000001" y="945.0">reference.ArbreReference</node>
+    <node x="97.875" y="467.0">intervalle.ABRIntervalle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="utilisateur.Utilisateur" target="evenement.EvenementBusiness">
+      <point x="92.79999999999995" y="-257.0" />
+      <point x="1437.6750000000002" y="1509.0" />
+      <point x="2245.875" y="1509.0" />
+      <point x="2245.875" y="925.0" />
+      <point x="2165.375" y="925.0" />
+      <point x="-86.0" y="113.5" />
+    </edge>
+    <edge source="evenement.EvenementGastronomique" target="evenement.Evenement">
+      <point x="-104.0" y="-149.5" />
+      <point x="1747.375" y="427.0" />
+      <point x="1134.0200330132054" y="427.0" />
+      <point x="49.94117647058829" y="173.5" />
+    </edge>
+    <edge source="reference.ArbreReference" target="evenement.Evenement">
+      <point x="191.20000000000005" y="-257.0" />
+      <point x="735.5750000000002" y="915.0" />
+      <point x="566.3750000000001" y="915.0" />
+      <point x="566.3750000000001" y="417.0" />
+      <point x="1034.1376800720288" y="417.0" />
+      <point x="-49.94117647058829" y="173.5" />
+    </edge>
+    <edge source="reference.ArbreReference" target="intervalle.ABRIntervalle">
+      <point x="-95.60000000000002" y="-257.0" />
+      <point x="448.7750000000001" y="925.0" />
+      <point x="479.375" y="925.0" />
+      <point x="163.5" y="209.0" />
+    </edge>
+    <edge source="intervalle.ABRIntervalle" target="evenement.Evenement">
+      <point x="124.57142857142856" y="-209.0" />
+      <point x="440.44642857142856" y="377.0" />
+      <point x="967.5494447779113" y="377.0" />
+      <point x="-116.52941176470586" y="173.5" />
+    </edge>
+    <edge source="utilisateur.Utilisateur" target="evenement.EvenementCinematographique">
+      <point x="0.0" y="-257.0" />
+      <point x="1344.875" y="1539.0" />
+      <point x="1362.0788565426171" y="1539.0" />
+      <point x="1362.0788565426171" y="925.0" />
+      <point x="1213.875" y="925.0" />
+      <point x="-136.5" y="137.5" />
+    </edge>
+    <edge source="utilisateur.Utilisateur" target="evenement.Evenement">
+      <point x="-23.199999999999818" y="-257.0" />
+      <point x="1321.6750000000002" y="1479.0" />
+      <point x="1066.875" y="1479.0" />
+      <point x="1066.875" y="447.0" />
+      <point x="1084.0788565426171" y="447.0" />
+      <point x="0.0" y="173.5" />
+    </edge>
+    <edge source="utilisateur.Utilisateur" target="evenement.EvenementGastronomique">
+      <point x="69.59999999999991" y="-257.0" />
+      <point x="1414.475" y="1499.0" />
+      <point x="1856.875" y="1499.0" />
+      <point x="1856.875" y="925.0" />
+      <point x="1955.375" y="925.0" />
+      <point x="104.0" y="149.5" />
+    </edge>
+    <edge source="Test" target="utilisateur.Utilisateur">
+      <point x="44.5" y="-28.0" />
+      <point x="1389.375" y="2098.0" />
+      <point x="1431.875" y="2098.0" />
+      <point x="87.0" y="257.0" />
+    </edge>
+    <edge source="evenement.EvenementBusiness" target="evenement.Evenement">
+      <point x="-86.0" y="-113.5" />
+      <point x="2165.375" y="407.0" />
+      <point x="1167.3141506602642" y="407.0" />
+      <point x="83.23529411764707" y="173.5" />
+    </edge>
+    <edge source="utilisateur.Utilisateur" target="evenement.EvenementCulturel">
+      <point x="139.20000000000005" y="-257.0" />
+      <point x="1484.0750000000003" y="1529.0" />
+      <point x="2651.375" y="1529.0" />
+      <point x="2651.375" y="925.0" />
+      <point x="2550.125" y="925.0" />
+      <point x="-106.75" y="161.5" />
+    </edge>
+    <edge source="evenement.EvenementCinematographique" target="evenement.Evenement">
+      <point x="-136.5" y="-137.5" />
+      <point x="1213.875" y="447.0" />
+      <point x="1100.7259153661466" y="447.0" />
+      <point x="16.647058823529505" y="173.5" />
+    </edge>
+    <edge source="evenement.EvenementCulturel" target="evenement.Evenement">
+      <point x="-106.75" y="-161.5" />
+      <point x="2550.125" y="387.0" />
+      <point x="1200.6082683073232" y="387.0" />
+      <point x="116.52941176470608" y="173.5" />
+    </edge>
+    <edge source="utilisateur.Utilisateur" target="reference.ArbreReference">
+      <point x="-92.79999999999995" y="-257.0" />
+      <point x="1252.0750000000003" y="1509.0" />
+      <point x="663.8750000000001" y="1509.0" />
+      <point x="119.5" y="257.0" />
+    </edge>
+    <edge source="utilisateur.Utilisateur" target="intervalle.ABRIntervalle">
+      <point x="-162.39999999999986" y="-257.0" />
+      <point x="1182.4750000000004" y="1539.0" />
+      <point x="201.375" y="1539.0" />
+      <point x="201.375" y="925.0" />
+      <point x="152.375" y="925.0" />
+      <point x="-163.5" y="209.0" />
+    </edge>
+    <edge source="intervalle.ABRIntervalle" target="intervalle.Intervalle">
+      <point x="-62.285714285714334" y="-209.0" />
+      <point x="253.58928571428555" y="447.0" />
+      <point x="225.625" y="447.0" />
+      <point x="45.125" y="125.0" />
+    </edge>
+    <edge source="utilisateur.Utilisateur" target="evenement.EvenementMusical">
+      <point x="-46.399999999999864" y="-257.0" />
+      <point x="1298.4750000000004" y="1489.0" />
+      <point x="849.8750000000001" y="1489.0" />
+      <point x="849.8750000000001" y="925.0" />
+      <point x="950.3750000000001" y="925.0" />
+      <point x="106.0" y="161.5" />
+    </edge>
+    <edge source="evenement.EvenementMusical" target="evenement.Evenement">
+      <point x="-106.0" y="-161.5" />
+      <point x="738.3750000000001" y="427.0" />
+      <point x="1050.7847388955583" y="427.0" />
+      <point x="-33.29411764705878" y="173.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4425149700598803" x="1428.1759133964815" y="324.43301759133965" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
