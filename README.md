@@ -13,7 +13,5 @@ Ce projet a été réalisé avec le langage Java.
 
 Nous avons donc réalisé un outil permettant de gérer les évènements de la ville de Cannes, France.
 
-Il a fallu donc créer les classes Client, Chambre, JeuCasino, Restaurant, Spa et enfin la classe Utilisateur qui permettra de créer la structure finale.
-
 Voici le début d'une exécution :
 ![alt text](https://github.com/JulienChoukroun/Gestion-d-evenement-dans-une-ville-Java/blob/master/Documentation/testPart1.PNG "Début d'exécution")
